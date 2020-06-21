@@ -6,15 +6,15 @@ phoneMobileWind = 693000000
 phoneStable = 2000000000
 phoneMobilewhatUp = 6980000000
 
-print("\t --- Create By DloCo01 CDWM ---")
-print("\t --- Forum Site Worksession.ddns.net ---")
-print("\t Plase Select For Dictionary Cracking Wifi\n\t ---- For Help Press 7 -----\n")
-print("Press 1 For Cosmote Nubmer ")
-print("Press 2 For Vodafon Nubmer")
-print("Press 3 For Wind Nubmer")
-print("Press 4 For Stable Nubmer")
-print("Press 6 For Make your Numbers")
-select = int(input("Plase Select a Number For make your Dictionary!: "))
+print("\t\t --- Create By DloCo01 CDWM ---")
+print("\t\t --- Forum Site Worksession.ddns.net ---")
+print("\t Plase Select For Dictionary Cracking Wifi\n\t\t ---- For Help Press 7 -----\n")
+print(" Press 1 For Cosmote Nubmer ")
+print(" Press 2 For Vodafon Nubmer")
+print(" Press 3 For Wind Nubmer")
+print(" Press 4 For Stable Nubmer")
+print(" Press 6 For Make your Numbers")
+select = int(input(" Plase Select a Number For make your Dictionary!: "))
 
 if select == 1:
     maker = open("Dic_CosmPhon.txt" , "a")
@@ -74,19 +74,20 @@ elif select == 6:
     print("\n\tDictionary Success!")    
 
 elif select == 7:
-    print("\t ----Help----")
-    print(" Cosmote number start to 697XXXXXXX")
+    print("\t\t ----Help----")
+    print(" \nCosmote number start to 697XXXXXXX")
     print(" What'Up number start to 698XXXXXXX")
     print(" Vodafon Number Start to 694XXXXXXX")
     print(" Wind Number Start to 693XXXXXXX")
     print("\n Gia stathera Ellada to kathe meros exei ton dikotou kwdiko\n Eksartate apo to pou vriskeste 210 p.x Gia athina")
-    print("\n Stin ellada einai sinithismeno na xrisimopioun airthmos stathelou\n tilefono eite kinitou gia kwdiko WiFi")
-    print("\t ----sample---- ")
-    print("\t How to make your Dictionary!")
-    print("Type you number to start create Dictionary: 2662000000")
-    print("Type you number to stop create Dictionary: 26620999999\n")
-    print("\nAma o ginitonas mas exei allaksai to ergostasiko kwdiko!")
-    print("\nXrisimopihste aircrack-ng")
+    print("\n Stin ellada einai sinithismeno na xrisimopioun airthmos stathelou\n tilefono eite kinitou gia kwdiko WiFi\n")
+    print("\t\t ----sample---- ")
+    print("\t ---How to make your Dictionary---")
+    print(" Type you number to start create Dictionary: 2662000000")
+    print(" Type you number to stop create Dictionary: 26620999999\n")
+    print("\n Ama o ginitonas mas exei allaksai to ergostasiko kwdiko!")
+    print(" Xrisimopihste aircrack-ng")
+    close = input("\nPress any key... for Close!")
 
 
 else:
