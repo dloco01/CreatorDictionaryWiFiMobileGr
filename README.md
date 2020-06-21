@@ -2,7 +2,9 @@
 script python For linux and Windows
 
 -Run Script to Terminal or Cmd
+
 -Script for aircrack-ng
+
 -WiFi Cracking
 
 έχω φτιάξει ένα script για ελλάδα απλό
