@@ -21,7 +21,7 @@ if select == 1:
         pbar.update()
         phoneMobileCos+=1
         maker.write(str(phoneMobileCos)+ "\n")
-    print("\nDictionary Success!")
+    print("\n\tDictionary Success!")
     
 elif select == 2:
     pbar = tqdm(total=100)
@@ -30,7 +30,7 @@ elif select == 2:
         phoneMobileVod+=1
         pbar.update()
         maker.write(str(phoneMobileVod)+ "\n")
-    print("\nDictionary Success!")
+    print("\n\tDictionary Success!")
 
 elif select == 3:
     pbar = tqdm(total=100)
@@ -40,7 +40,7 @@ elif select == 3:
         phoneMobileWind+=1
         pbar.update(1)
         maker.write(str(phoneMobileWind)+ "\n")
-    print("\nDictionary Success!")
+    print("\n\tDictionary Success!")
 
 elif select == 4:
     pbar = tqdm(total=100)
@@ -49,7 +49,7 @@ elif select == 4:
         phoneStable+=1
         pbar.update()
         maker.write(str(phoneStable)+ "\n")
-    print("\nDictionary Success!")
+    print("\n\tDictionary Success!")
 
 elif select == 5:
     pbar = tqdm(total=100)
@@ -58,7 +58,7 @@ elif select == 5:
         phoneMobilewhatUp+=1
         pbar.update()
         maker.write(str(phoneMobilewhatUp)+ "\n")
-    print("\nDictionary Success!")
+    print("\n\tDictionary Success!")
 
 elif select == 6:
     maker = open("Dic_YourNumber.txt" , "a")
@@ -69,20 +69,21 @@ elif select == 6:
         pbar.update()
         yourSelectStart+=1
         maker.write(str(yourSelectStart) + "\n")
-    print("\nDictionary Success!")    
+    print("\n\tDictionary Success!")    
 
 elif select == 7:
     print("\t ----Help----")
-    print("Cosmote number start to 697XXXXXXX")
-    print("What'Up number start to 698XXXXXXX")
-    print("Vodafon Number Start to 694XXXXXXX")
-    print("Wind Number Start to 693XXXXXXX")
-    print("Gia stathera Ellada to kathe meros exei ton dikotou kwdiko\n Eksartate apo to pou vriskeste 210 p.x Gia athina")
-    print("Stin ellada einai sinithismeno na xrisimopioun airthmos stathelou tilefono\n eite kinitou gia kwdiko WiFi")
+    print(" Cosmote number start to 697XXXXXXX")
+    print(" What'Up number start to 698XXXXXXX")
+    print(" Vodafon Number Start to 694XXXXXXX")
+    print(" Wind Number Start to 693XXXXXXX")
+    print("\n Gia stathera Ellada to kathe meros exei ton dikotou kwdiko\n Eksartate apo to pou vriskeste 210 p.x Gia athina")
+    print("\n Stin ellada einai sinithismeno na xrisimopioun airthmos stathelou\n tilefono eite kinitou gia kwdiko WiFi")
     print("\t ----sample---- ")
+    print("\t How to make your Dictionary!")
     print("Type you number to start create Dictionary: 2662000000")
     print("Type you number to stop create Dictionary: 26620999999\n")
-    print("Ama o ginitonas mas exei allaksai to ergostasiko kwdiko!")
+    print("\nAma o ginitonas mas exei allaksai to ergostasiko kwdiko!")
     print("\nXrisimopihste aircrack-ng")
 
 
