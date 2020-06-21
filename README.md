@@ -1,5 +1,6 @@
 # CreatorDictionaryWiFiMobileGr
-python
+script python For linux and Windows
+Run Script to Terminal or Cmd
 
 έχω φτιάξει ένα script για ελλάδα απλό
 για Cracking  σε wifi χρησιμοποιώντας το aircrack-ng 
