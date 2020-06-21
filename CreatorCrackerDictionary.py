@@ -15,13 +15,14 @@ print("Press 5 For Make your Numbers")
 select = int(input("Plase Select a Number For make your Dictionary!: "))
 if select > 4:
     maker = open("Dic_YourNumber.txt" , "a")
-    yourSelect = int(input("Type you number to make Dictionary: "))
+    yourSelectStart = int(input("Type you number to START! create Dictionary: "))
+    yourSelectStop = int(input("Type you number to STOP! create Dictionary: "))
     pbar = tqdm(total=100)
-    while not int(yourSelect) == 0000000000:
+    while not int(yourSelectStart) == yourSelectStop:
         pbar.update()
-        yourSelect+=1
-        maker.write(str(yourSelect) + "\n")
-
+        yourSelectStart+=1
+        maker.write(str(yourSelectStart) + "\n")
+    print("Dictionary Success!")
 
 if select == 1:
     maker = open("Dic_CosmPhon.txt" , "a")
