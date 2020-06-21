@@ -6,6 +6,8 @@ phoneMobileWind = 693000000
 phoneStable = 2000000000
 phoneMobilewhatUp = 6980000000
 
+print("\t --- Create By DloCo01 CDWM ---")
+print("\t --- Forum Site Worksession.ddns.net ---")
 print("Plase Select For Dictionary Cracking Wifi\n ---- For Help Press 7 -----\n")
 print("Press 1 For Cosmote Nubmer ")
 print("Press 2 For Vodafon Nubmer")
