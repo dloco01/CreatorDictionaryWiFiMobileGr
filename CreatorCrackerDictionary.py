@@ -79,6 +79,9 @@ elif select == 6:
     print("Gia stathera Ellada to kathe meros exei ton dikotou kwdiko\n Eksartate apo to pou vriskeste 210 p.x Gia athina")
     print("Stin ellada einai sinithismeno na xrisimopioun airthmos stathelou tilefono\n eite kinitou gia kwdiko WiFi")
     print("Ama o ginitonas mas exei allaksai to ergostasiko kwdiko!")
+    print("\t ----sample---- ")
+    print("Type you number to start create Dictionary: 2662000000")
+    print("Type you number to stop create Dictionary: 26620999999")
     print("\nXrisimopihste aircrack-ng")
 
 
