@@ -8,7 +8,7 @@ phoneMobilewhatUp = 6980000000
 
 print("\t --- Create By DloCo01 CDWM ---")
 print("\t --- Forum Site Worksession.ddns.net ---")
-print("\t Plase Select For Dictionary Cracking Wifi\n ---- For Help Press 7 -----\n")
+print("\t Plase Select For Dictionary Cracking Wifi\n\t ---- For Help Press 7 -----\n")
 print("Press 1 For Cosmote Nubmer ")
 print("Press 2 For Vodafon Nubmer")
 print("Press 3 For Wind Nubmer")
