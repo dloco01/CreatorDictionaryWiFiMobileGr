@@ -13,7 +13,7 @@ print("Press 3 For Wind Nubmer")
 print("Press 4 For Stable Nubmer")
 print("Press 5 For Make your Numbers")
 select = int(input("Plase Select a Number For make your Dictionary!: "))
-if select > 6:
+if select > 4:
     maker = open("Dic_YourNumber.txt" , "a")
     yourSelect = int(input("Type you number to make Dictionary: "))
     pbar = tqdm(total=100)
@@ -30,7 +30,8 @@ if select == 1:
         pbar.update()
         phoneMobileCos+=1
         maker.write(str(phoneMobileCos)+ "\n")
-
+    print("Dictionary Success!")
+    
 elif select == 2:
     pbar = tqdm(total=100)
     maker = open("Dic_VodPhon.txt" , "a")
@@ -38,7 +39,7 @@ elif select == 2:
         phoneMobileVod+=1
         pbar.update()
         maker.write(str(phoneMobileVod)+ "\n")
-        print("Dictionary Success!")
+    print("Dictionary Success!")
 
 elif select == 3:
     pbar = tqdm(total=100)
@@ -48,7 +49,7 @@ elif select == 3:
         phoneMobileWind+=1
         pbar.update(1)
         maker.write(str(phoneMobileWind)+ "\n")
-        print("Dictionary Success!")
+    print("Dictionary Success!")
 
 elif select == 4:
     pbar = tqdm(total=100)
@@ -57,7 +58,7 @@ elif select == 4:
         phoneStable+=1
         pbar.update()
         maker.write(str(phoneStable)+ "\n")
-        print("Dictionary Success!")
+    print("Dictionary Success!")
 
 elif select == 5:
     pbar = tqdm(total=100)
@@ -66,7 +67,7 @@ elif select == 5:
         phoneMobilewhatUp+=1
         pbar.update()
         maker.write(str(phoneMobilewhatUp)+ "\n")
-        print("Dictionary Success!")
+    print("Dictionary Success!")
 
 elif select == 6:
     print("\t ----Help----")
