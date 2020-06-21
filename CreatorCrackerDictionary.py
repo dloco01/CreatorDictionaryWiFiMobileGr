@@ -4,76 +4,19 @@ phoneMobileCos = 6970000000
 phoneMobileVod = 6940000000
 phoneMobileWind = 693000000
 phoneStable = 2000000000
-phoneMobilewhatUp = 6980000000
+phoneMobileWhatUp = 6980000000
 
-print("\t\t --- Create By DloCo01 CDWM ---")
-print("\t\t --- Forum Site Worksession.ddns.net ---")
-print("\t Plase Select For Dictionary Cracking Wifi\n\t\t ---- For Help Press 7 -----\n")
-print(" Press 1 For Cosmote Nubmer ")
-print(" Press 2 For Vodafon Nubmer")
-print(" Press 3 For Wind Nubmer")
-print(" Press 4 For Stable Nubmer")
-print(" Press 6 For Make your Numbers")
-select = int(input(" Plase Select a Number For make your Dictionary!: "))
+def banner():
+    print("\t\t --- Create By DloCo01 CDWM ---")
+    print("\t\t --- Forum Site Worksession.ddns.net ---")
+    print("\t Plase Select For Dictionary Cracking Wifi\n\t\t ---- For Help Press 7 -----\n")
+    print(" Press 1 For Cosmote Nubmer ")
+    print(" Press 2 For Vodafon Nubmer")
+    print(" Press 3 For Wind Nubmer")
+    print(" Press 4 For Stable Nubmer")
+    print(" Press 6 For Make your Numbers")
 
-if select == 1:
-    maker = open("Dic_CosmPhon.txt" , "a")
-    pbar = tqdm(total=100)
-    while not int(phoneMobileCos) == 6979999999:
-        pbar.update()
-        phoneMobileCos+=1
-        maker.write(str(phoneMobileCos)+ "\n")
-    print("\n\tDictionary Success!")
-    
-elif select == 2:
-    pbar = tqdm(total=100)
-    maker = open("Dic_VodPhon.txt" , "a")
-    while not int(phoneMobileVod) == 6949999999:
-        phoneMobileVod+=1
-        pbar.update()
-        maker.write(str(phoneMobileVod)+ "\n")
-    print("\n\tDictionary Success!")
-
-elif select == 3:
-    pbar = tqdm(total=100)
-    maker = open("Dic_WindPhon.txt" , "a")
-    while not int(phoneMobileWind) == 6939999999:
-        pbar = tqdm(total=100)
-        phoneMobileWind+=1
-        pbar.update(1)
-        maker.write(str(phoneMobileWind)+ "\n")
-    print("\n\tDictionary Success!")
-
-elif select == 4:
-    pbar = tqdm(total=100)
-    maker = open("Dic_StablePhone.txt" , "a")
-    while not int(phoneStable) == 2999999999:
-        phoneStable+=1
-        pbar.update()
-        maker.write(str(phoneStable)+ "\n")
-    print("\n\tDictionary Success!")
-
-elif select == 5:
-    pbar = tqdm(total=100)
-    maker = open("Dic_StablePhone.txt" , "a")
-    while not int(phoneMobilewhatUp) == 6989999999:
-        phoneMobilewhatUp+=1
-        pbar.update()
-        maker.write(str(phoneMobilewhatUp)+ "\n")
-    print("\n\tDictionary Success!")
-
-elif select == 6:
-    maker = open("Dic_YourNumber.txt" , "a")
-    yourSelectStart = int(input("Type you number to START! create Dictionary: "))
-    yourSelectStop = int(input("Type you number to STOP! create Dictionary: "))
-    pbar = tqdm(total=100)
-    while not int(yourSelectStart) == yourSelectStop:
-        pbar.update()
-        yourSelectStart+=1
-        maker.write(str(yourSelectStart) + "\n")
-    print("\n\tDictionary Success!")    
-
-elif select == 7:
+def helper():
     print("\t\t ----Help----")
     print(" \nCosmote number start to 697XXXXXXX")
     print(" What'Up number start to 698XXXXXXX")
@@ -89,6 +32,63 @@ elif select == 7:
     print(" Xrisimopihste aircrack-ng")
     close = input("\nPress any key... for Close!")
 
+def creater(phone,stop,nameFile):
+    maker = open(nameFile, "a")
+    pbar = tqdm(total=100)
+    phone+=1
+    while not int(phone) == stop:
+        pbar.update()
+        phone+=1
+        maker.write(str(phone)+ "\n")
+    print("\n\tDictionary Success!")
+
+def MyCreater(start,stop,nameFile):
+    maker = open(nameFile, "a")
+    pbar = tqdm(total=100)
+    start-=1
+    while not int(start) == stop:
+        pbar.update()
+        start+=1
+        maker.write(str(start) + "\n")
+    print("\n\tDictionary Success!")
+
+banner()
+select = int(input(" Plase Select a Number For make your Dictionary!: "))
+ 
+if select == 1:
+    stop = 6979999999
+    name = "CosmotePass.txt"
+    creater(phoneMobileCos,stop,name)
+    
+elif select == 2:
+    stop = 6949999999
+    name = "VodafonePass.txt"
+    creater(phoneMobileVod,stop,name)
+
+elif select == 3:
+    stop = 6939999999
+    name = "WindPass.txt"
+    creater(phoneMobileWind,stop,name)
+
+elif select == 4:
+    stop = 6989999999
+    name = "WhatUpPass.txt"
+    creater(phoneMobileWhatUp,stop,name)
+
+elif select == 5:
+    stop = 2999999999
+    name = "WhatUpPass.txt"
+    creater(phoneStable,stop,name)
+
+elif select == 6:
+    start = int(input("Type you number to START! create Dictionary: "))
+    stop = int(input("Type you number to STOP! create Dictionary: "))
+    name = "MyPass.txt"
+    MyCreater(start,stop,name)
+
+elif select == 7:
+    helper()
 
 else:
     print("Plase Type a Number 1-7!")
+    helper()
