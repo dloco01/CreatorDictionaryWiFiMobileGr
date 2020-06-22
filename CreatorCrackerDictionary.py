@@ -35,7 +35,7 @@ def helper():
 def creater(phone,stop,nameFile):
     maker = open(nameFile, "a")
     pbar = tqdm(total=100)
-    phone+=1
+    phone-=1
     while not int(phone) == stop:
         pbar.update()
         phone+=1
