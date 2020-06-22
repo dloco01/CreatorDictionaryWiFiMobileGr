@@ -1,4 +1,6 @@
-# CreatorDictionaryWiFiMobileGr
+# CDWM Cracking Wifi Creater Dictionary
+# Numbers Phone
+
 script python For linux and Windows
 
 -Run Script to Terminal or Cmd
